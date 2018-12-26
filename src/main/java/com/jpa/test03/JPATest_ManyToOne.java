@@ -14,7 +14,7 @@ import java.util.Date;
 /**
  * 关联关系  多对一
  */
-public class JPATest {
+public class JPATest_ManyToOne {
 
     String persistenceUintName = "jpa";
 
