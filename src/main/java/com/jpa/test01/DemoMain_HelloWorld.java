@@ -8,7 +8,7 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 import java.util.Date;
 
-public class DemoMain {
+public class DemoMain_HelloWorld {
     public static void main(String[] args) {
 
         //1.创建 EntityManagerFactory
