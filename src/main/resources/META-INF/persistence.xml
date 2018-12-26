@@ -8,7 +8,7 @@
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
 
         <!-- 添加持久类-->
-        <class>com.jpa.demo01.Customer</class>
+        <class>com.jpa.domain.Customer</class>
 
         <properties>
             <!-- 数据库连接的基本信息 -->
