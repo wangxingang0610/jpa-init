@@ -7,19 +7,28 @@
         <!-- 使用什么 ORM 产品作为 JPA 的实现 -->
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
 
+        <!-- 添加持久类-->
+        <class>com.jpa.demo01.Customer</class>
+
         <properties>
             <!-- 数据库连接的基本信息 -->
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa" />
             <property name="javax.persistence.jdbc.user" value="root" />
-            <property name="javax.persistence.jdbc.password" value="root123" />
+            <property name="javax.persistence.jdbc.password" value="root" />
             <!-- 配置 JPA 实现产品的基本属性，即 Hibernate 的基本属性 -->
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.format_sql" value="true" />
             <property name="hibernate.hbm2ddl.auto" value="update" />
         </properties>
 
+
+
+
     </persistence-unit>
+
+
+
 </persistence>
 
 
