@@ -7,6 +7,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 
+@NamedQuery(name = "testNamedQuery",query="FROM Customer c where c.id = ?")
 @Table(name = "JPA_CUSTOMER")
 @Entity
 @Cacheable
