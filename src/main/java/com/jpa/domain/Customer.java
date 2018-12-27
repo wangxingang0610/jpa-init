@@ -29,8 +29,8 @@ public class Customer {
      * 在 Customer 中添加 Order 的 Set 集合属性，并映射 1-n 关联关系，重新生成数据表
      * @return
      */
-    @JoinColumn(name = "CUSTOMER_ID")
-    @OneToMany(fetch = FetchType.LAZY,cascade = CascadeType.REMOVE)
+    //@JoinColumn(name = "CUSTOMER_ID")
+    @OneToMany(fetch = FetchType.LAZY,cascade = {CascadeType.REMOVE}, mappedBy = "customer")
     public Set<Order> getOrders() {
         return orders;
     }
