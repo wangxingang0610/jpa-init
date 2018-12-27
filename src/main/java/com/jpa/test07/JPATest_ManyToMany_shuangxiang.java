@@ -88,11 +88,20 @@ public class JPATest_ManyToMany_shuangxiang {
     }
 
 
+    /**
+     * 懒加载
+     */
     @Test
-    public void testOneToOneFind2(){
-        Department department = entityManager.find(Department.class, 1);
-        System.out.println(department.getDepartmentName());
-        System.out.println(department.getManager().getManagerName());
+    public void testManyToManyFind(){
+//        Item item = entityManager.find(Item.class, 1);
+//        System.out.println(item.getItemName());
+//
+//        System.out.println(item.getCategorys().size());
+
+        Category category = entityManager.find(Category.class, 7);
+        System.out.println(category.getCategoryName());
+        System.out.println(category.getItems().size());
+
 
     }
 
