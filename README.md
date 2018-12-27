@@ -14,4 +14,6 @@
   ①. 推荐保存时，先保存1的一方，再保存多的一方，否则会多出update 1*n 条语句
   ②. 通过@OneToMany的mappedBy 属性制定由n的一方customer来维护关联关系，而1的一方放弃维护
       注：使用了mappedBy属性就不能再使用@JoinColumn注解
-  
+ 
+4.映射双向一对一的关联关系
+  find
