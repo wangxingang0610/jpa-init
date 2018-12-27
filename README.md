@@ -1,4 +1,8 @@
 
+参考：
+http://www.cnblogs.com/crawl/p/7703679.html
+
+
 1.同时设置如下两项会报错
 
     @GeneratedValue(strategy=GenerationType.AUTO)
