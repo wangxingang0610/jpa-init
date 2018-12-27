@@ -2,7 +2,6 @@ package com.jpa.test03;
 
 import com.jpa.domain.Customer;
 import com.jpa.domain.Order;
-import com.sun.tools.corba.se.idl.constExpr.Or;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

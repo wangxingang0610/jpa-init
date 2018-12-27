@@ -6,8 +6,10 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
+
 @Table(name = "JPA_CUSTOMER")
 @Entity
+@Cacheable
 public class Customer {
 
     private Integer id;
